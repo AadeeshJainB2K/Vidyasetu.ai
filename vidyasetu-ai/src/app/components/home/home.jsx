@@ -20,7 +20,9 @@ export default function Home() {
         </div>
         {/* Right half for Spline component */}
         <div className="w-1/2 relative z-0">
-          <Spline scene="https://prod.spline.design/zeSzOysNUTYOI3rn/scene.splinecode" />
+          <Spline
+        scene="https://prod.spline.design/Mq4kFAUgT8Tgur3Z/scene.splinecode" 
+      />
         </div>
       </div>
     </main>
