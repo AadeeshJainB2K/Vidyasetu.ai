@@ -1,10 +1,8 @@
-export default function Home() {
-  return (
-    <>
-      <h1>
-        Hello Aadeesh , Naman in bracnch aadeesh j, my name is aadeesh jai
-      </h1>
-    </>
-  );
+import LoginForm from "./components/loginForm/loginForm";
+
+export default function Page() {
+  return <LoginForm />;
 }
+
+
 //https://meet.google.com/ryi-pqdc-nma
