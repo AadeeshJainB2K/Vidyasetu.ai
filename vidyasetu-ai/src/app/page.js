@@ -1,10 +1,6 @@
-export default function Home() {
-  return (
-    <>
-      <h1>
-        Hello Aadeesh , Naman in bracnch aadeesh j, my name is aadeesh jai
-      </h1>
-    </>
-  );
+import { redirect } from 'next/navigation'
+
+export default function Page() {
+  redirect('/home')
+  return null
 }
-//https://meet.google.com/ryi-pqdc-nma
