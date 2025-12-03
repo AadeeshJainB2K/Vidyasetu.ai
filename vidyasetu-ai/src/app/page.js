@@ -1,8 +1,6 @@
-import LoginForm from "./components/loginForm/loginForm";
+import { redirect } from 'next/navigation'
 
 export default function Page() {
-  return <LoginForm />;
+  redirect('/home')
+  return null
 }
-
-
-//https://meet.google.com/ryi-pqdc-nma
