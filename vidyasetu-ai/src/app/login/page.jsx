@@ -222,7 +222,7 @@ export default function LoginPage() {
             <ClientErrorBoundary>
               <Spline
                 scene="https://prod.spline.design/y0g8NpIGWrv77SIm/scene.splinecode"
-                className="w-full h-full transform md:scale-110 md:-translate-y-6 pointer-events-auto"
+                className="w-full h-full transform md:scale-125 md:-translate-y-12 pointer-events-auto"
               />
             </ClientErrorBoundary>
           </div>
